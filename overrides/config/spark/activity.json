@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "qizzle",
+      "uniqueId": "9b88abc0-03e5-481c-9687-b42acce82289"
+    },
+    "time": 1697037812492,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/M9XqaLoznZ"
+    }
+  }
+]

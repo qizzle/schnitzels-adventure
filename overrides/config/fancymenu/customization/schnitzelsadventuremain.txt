@@ -1,0 +1,97 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = schnitzel's Adventure
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 70261097-f944-4e35-97a6-a599475e3af21696762681456
+  y = 348
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0e8be9e1-fc34-4ef6-8494-479975a5e5301696762681456
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b0a95a28-ac2c-4381-8e25-35148e3c2ab41696762681456
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = true
+  x = 229
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 84c56de4-0bf2-4d2f-b322-607f26e80dab1696762681456
+  y = 302
+  height = 30
+}
+
+customization {
+  path = schnitzelsadventure.png
+  orientation = top-centered
+  x = -137
+  width = 274
+  action = addtexture
+  actionid = 7af32825-cb83-479e-b99a-14e0e01fb5371696762800800
+  y = 20
+  height = 70
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = schnitzel's Adventure v1.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8e84ecf3-5ee0-4c57-a38e-f84df6cee48e1696763306464
+  y = -23
+  alignment = left
+  height = 12
+}
+

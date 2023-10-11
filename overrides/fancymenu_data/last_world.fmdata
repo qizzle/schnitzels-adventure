@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Dimitri B/AppData/Roaming/PrismLauncher/instances/schnitzel's Adventure/.minecraft/saves/New World (4)
+}
+
