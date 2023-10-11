@@ -13,6 +13,9 @@ The serverpack is **W.I.P.**
 ## Modlist
 View the list of all mods included in this pack on Moddermore **W.I.P.**
 
+## Wiki
+There's a offical wiki for **schnitzel's Adventure** on [GitBook](https://qizzle.gitbook.io/schnitzels-adventure/).
+
 ## Issues
 Found something **game-breaking** or **unbalanced**? Open a new issue under the [Issues](https://github.com/qizzle/schnitzels-adventure/issues) tab of this repository.
 
