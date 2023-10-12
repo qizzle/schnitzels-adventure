@@ -21,14 +21,6 @@ ServerEvents.recipes((event) => {
     input: "farmersdelight:tree_bark",
     output: "minecraft:paper",
   });
-  event.remove({
-    input: "minecraft:wheat",
-    output: "minecraft:bread",
-  });
-  event.remove({
-    input: "minecraft:wheat",
-    output: "minecraft:cake",
-  });
 
   event.blasting("minecraft:quartz", "minecraft:amethyst_shard");
   event.shapeless(Item.of("map_atlases:atlas", 1), [
@@ -38,6 +30,9 @@ ServerEvents.recipes((event) => {
   event.shapeless(Item.of("minecraft:paper", 3), ["3x minecraft:bamboo"]);
   event.shapeless(Item.of("minecraft:paper", 3), [
     "3x farmersdelight:tree_bark",
+  ]);
+  event.shapeless(Item.of("minecraft:book", 1), [
+    "3x minecraft:paper", "farmersdelight:tree_bark",
   ]);
   event.shaped(Item.of("minecraft:string", 4), ["AA "], {
     A: "minecraft:bamboo",
